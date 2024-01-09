@@ -1,0 +1,16 @@
+structure Graph is 
+  objects: a nonempty set of vertices and a set of undirected edges, where each 
+edge is a pair of vertices
+  functions: for all graph ∈ Graph, v, v1 and v2 ∈ Vertices
+1.    Graph Create()::=return an empty graph
+2.    Graph InsertVertex(graph, v)::= return a graph with v inserted. v has no incident edge.
+3.    Graph InsertEdge(graph, v1,v2)::= return a graph with new edge between v1 and v2
+4.    Graph DeleteVertex(graph, v)::= return a graph in which v and all edges incident to it are removed
+5.    Graph DeleteEdge(graph, v1, v2)::=return a graph in which the edge (v1, v2) is removed
+6.    Boolean IsEmpty(graph)::= if (graph==empty graph) return TRUE else return FALSE
+7.    List Adjacent(graph,v)::= return a list of all vertices that are adjacent to v
+8.    BFS
+9.    DFS
+10.   Warshall's Algorithm 
+11.   Shortest path, connected component, Minimum flow, Spanning Tree
+12.   Other if avilable... 
